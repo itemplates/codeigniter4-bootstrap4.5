@@ -15,10 +15,10 @@
 ```app/Helpers/Base_helper.php```
 
 ### What is Base Helper Include:
-- ```sainitize_phone()``` Function Will Sanitize Phone Number and Convert it to tel: supported format
+- ```sainitize_phone()``` Function Will Sanitize Phone Number and Convert it to ```tel:``` supported format
 
 ### Static Pages File Structure:
-```app/Controllers/Pages.php``` support unlimited sub pages like yoursite.com/page1/subpage1/subsubpage1
+```app/Controllers/Pages.php``` support unlimited sub pages like ```yoursite.com/page1/subpage1/subsubpage1```
 
 ### Structure:
 
