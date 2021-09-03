@@ -31,5 +31,19 @@ app/Views/contact.php
 ```
 
 **Following Structure will open ```services/web-design-service``` page**
-```app/Views/services/web-design-service.php
+```
+app/Views/services/web-design-service.php
 app/Views/services/web-design-service/index.php
+```
+
+## Simple Contact Form API Included:
+
+Send ajax/post request to ```yoursite.com/api/send_query```. Field name must be named with ```form[name]```, ```form[email]```, and ```form[...]```
+
+To Edit Mail Config, Goto: ```app/Config/Site.php```
+
+To Edit API Functions, Goto: ```app/Controllers/API.php```
+
+**Example**
+
+
