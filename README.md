@@ -1,5 +1,5 @@
-# This is a Starter Template of PHP framework and Frontend libraries for a Basic Website
-## Following Libraries Included:
+## This is a Starter Template of PHP framework and Frontend libraries for a Basic Website
+### Following Libraries Included:
 - PHP
 - CodeIgniter4
 - Bootstrap 4.5
@@ -8,16 +8,16 @@
 - Font Awesome 5
 - Owl Carousel 2.3.4
 
-## You can change site information in following path:
+### You can change site information in following path:
 ```app/Config/Site.php```
 
-## To Modify Base Helper Function of Website, Follow this path:
+### To Modify Base Helper Function of Website, Follow this path:
 ```app/Helpers/Base_helper.php```
 
 ### What is Base Helper Include:
 - ```sainitize_phone()``` Function Will Sanitize Phone Number and Convert it to tel: supported format
 
-## Static Pages File Structure:
+### Static Pages File Structure:
 ```app/Controllers/Pages.php``` support unlimited sub pages like yoursite.com/page1/subpage1/subsubpage1
 
 ### Structure:
