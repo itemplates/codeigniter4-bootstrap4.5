@@ -1,0 +1,88 @@
+/*!
+ * Bootstrap v4.5.0 (https://getbootstrap.com/)
+ * Copyright 2011-2020 The Bootstrap Authors
+ * Copyright 2011-2020 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+$primary:       #0acaf8;
+$secondary:     #6c757d;
+
+
+$font-size-base:              1rem; 
+$font-size-lg:                $font-size-base * 1.25;
+$font-size-sm:                $font-size-base * .875;
+
+
+$h1-font-size:                $font-size-base * 2.0;
+$h2-font-size:                $font-size-base * 1.8;
+$h3-font-size:                $font-size-base * 1.6;
+$h4-font-size:                $font-size-base * 1.4;
+$h5-font-size:                $font-size-base * 1.2;
+$h6-font-size:                $font-size-base;
+
+
+$spacer: 1rem;
+$headings-line-height:        1.2;
+$headings-margin-bottom:      $spacer / 2;
+$headings-font-family:        null;
+$headings-font-weight:        500;
+$headings-line-height:        1.2;
+$headings-color:              null;
+
+$display1-size:               4.0rem;
+$display2-size:               3.5rem;
+$display3-size:               3.0rem;
+$display4-size:               2.5rem;
+
+$display1-weight:             300;
+$display2-weight:             300;
+$display3-weight:             300;
+$display4-weight:             300;
+$display-line-height:         $headings-line-height;
+
+$lead-font-size:              $font-size-base * 1.25;
+$lead-font-weight:            300;
+
+$small-font-size:             80%;
+
+$input-btn-focus-width:       0;
+
+
+@import "scss/functions";
+@import "scss/variables";
+@import "scss/mixins";
+@import "scss/root";
+@import "scss/reboot";
+@import "scss/type";
+@import "scss/images";
+@import "scss/code";
+@import "scss/grid";
+@import "scss/tables";
+@import "scss/forms";
+@import "scss/buttons";
+@import "scss/transitions";
+@import "scss/dropdown";
+@import "scss/button-group";
+@import "scss/input-group";
+@import "scss/custom-forms";
+@import "scss/nav";
+@import "scss/navbar";
+@import "scss/card";
+@import "scss/breadcrumb";
+@import "scss/pagination";
+@import "scss/badge";
+@import "scss/jumbotron";
+@import "scss/alert";
+@import "scss/progress";
+@import "scss/media";
+@import "scss/list-group";
+@import "scss/close";
+@import "scss/toasts";
+@import "scss/modal";
+@import "scss/tooltip";
+@import "scss/popover";
+@import "scss/carousel";
+@import "scss/spinners";
+@import "scss/utilities";
+@import "scss/print";
